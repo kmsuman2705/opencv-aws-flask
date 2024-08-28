@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Replace with your phone's IP camera URL
-camera_url = "http://10.33.227.235:8080/video"
+camera_url = "http://192.168.1.129:8080/video"
 camera = cv2.VideoCapture(camera_url)
 
 def gen_frames():

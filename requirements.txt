@@ -1,0 +1,9 @@
+streamlit
+opencv-python
+secure-smtplib
+opencv-python-headless
+pillow
+requests
+geopy
+SpeechRecognition
+pyAudio
