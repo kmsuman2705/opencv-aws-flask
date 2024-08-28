@@ -5,7 +5,7 @@ import numpy as np
 st.title('OpenCV Streamlit App')
 
 # URL of the external camera stream
-video_url = 'http://192.168.137.43:8080/video'
+video_url = 'http://10.244.62.27:8080/video'
 cap = cv2.VideoCapture(video_url)
 
 if not cap.isOpened():
